@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "litestarapp"
+version = "0.1.0"
+description = ""
+authors = ["Jaroslaw Zabiello <hipertracker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+litestar = {extras = ["standard"], version = "^2.5.4"}
+jinjax = "^0.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
