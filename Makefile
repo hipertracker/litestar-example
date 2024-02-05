@@ -1,2 +1,5 @@
 .PHONY dev:
-	litestar run --reload --reload-dir=.
+dev:
+	litestar run --reload --reload-dir=. --pdb
+
+

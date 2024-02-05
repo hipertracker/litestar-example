@@ -7,8 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-litestar = {extras = ["standard"], version = "^2.5.4"}
+litestar = {extras = ["standard", "structlog"], version = "^2.5.4"}
 jinjax = "^0.30"
+icecream = "^2.1.3"
 
 
 [build-system]
